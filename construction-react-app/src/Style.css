@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    overflow-y:hidden ;
+}
+/* .App{
+    height: 100vh !important;
+} */
+/* .App{
+    position: relative;
+} */
+.home{
+    /* border: 2px solid red; */
+    /* height: 100%; */
+    height: 100vh;
+    width: 200px;
+    background-color: black;
+    color: azure;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.home ul{
+    margin-top: 20px;
+}
+.home ul li{
+    padding-left: 30px;
+    padding-bottom: 20px;
+    /* padding-top: 10px; */
+}
+.home ul li:hover{
+    color: #f5bc2b;
+}
+#logo{
+    height: 90px;
+    width: 180px;
+    margin-left: 10px;
+}
+.home ul li img{
+    height: 13px;
+    width: 13px;
+    padding-right: 10px;
+}
+.nav-bar{
+    margin-left: 200px;
+    /* border: 2px solid red; */
+    height: 50px;
+    color: azure;
+    background-color: black;
+}
+/* .nav-bar{ */
+    /* height: 50px; */
+    /* border: 2px solid red; */
+    /* padding-left: 100px; */
+    /* margin-left: 200px; */
+    /* background-color: black; */
+/* } */
+
+.projects-table .ant-table-thead > tr > th{
+    background-color: black;
+    color: azure;
+} 
+
+.projects{
+    margin-left: 100px;
+    margin-top: 100px;
+    /* border: 2px solid red; */
+    /* width: 100%; */
+}
+/* .projects-table {
+    width: 90%;
+    margin:10px auto;
+    padding-left: 50px;
+    padding-top: 50px;
+    border-radius:50px; */
+    /* box-shadow: 10px 10px 10px red; */
+/* } */
+.projects-table{
+    max-width: 85%;
+    min-width: 85%;
+    margin: auto;
+    position: relative;
+    top: 30px;
+    left: 20px;
+    padding-left: 100px;
+}
+.pagination-style {
+    background-color:rgb(238, 238, 238);
+}
+
+.project-data h2{
+    padding-left: 240px;
+    margin-top: 100px;
+}
+.ant-table{
+    box-shadow:  0 0 0.5rem 0.3125rem #0000001c;
+    /* border-radius: 12px; */
+    /* border: 2px solid red; */
+}
+
+.project-data button{
+    position: absolute;
+    right: 50px;
+    top: 100px;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    background-color:#f5bc2b;
+    border: #f5bc2b;
+    color: azure;
+    cursor: pointer;
+}
+
+
+.nav-bar img{
+    height: 20px;
+    width: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.App{
+    /* background-color: black; */
+    background-color: rgb(27, 26, 26);
+    height: 100vh;
+}
+.form{
+    color: azure;
+}
+label{
+    font-size: 12px;
+}
+#text-box{
+    border: 2px solid white;
+    border-radius: 5px;
+    height: 30px;
+    width: 400px;
+    /* font-size: 10px; */
+}
+
+.form button{
+    width: 403px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #f5bc2b;
+    border: 2px solid #f5bc2b;
+    color: azure;
+    font-size: 15px;
+}
+.login-page{
+    display: flex;
+    /* border: 2px solid red; */
+    /* justify-content: space-between; */
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    /* padding-top: 100px; */
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    background-color: rgba(43, 42, 42, 0.856);
+    border-radius: 10px;
+}
+.office-bldg img{
+    height: 100%;
+    width: 500px;
+    border-radius: 5px;
+    /* border: 2px solid red; */
+}
+
+.form h2{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 8px;
+}
+
+.form p{
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 12px;
+}
+
+.login-page h4{
+    position:absolute;
+    bottom: 20px;
+    left: 50px;
+    color: azure;
+}
+
+#aarambh-logo{
+    height: 70px;
+    width: 140px;
+    position: absolute;
+    top: 10px;
+    left: 30px;
+}
