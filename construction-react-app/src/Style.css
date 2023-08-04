@@ -149,6 +149,7 @@ label{
     border: 2px solid #f5bc2b;
     color: azure;
     font-size: 15px;
+    cursor: pointer;
 }
 .login-page{
     display: flex;
